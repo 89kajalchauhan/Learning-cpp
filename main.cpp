@@ -1,6 +1,4 @@
-#include <iostream> 
-using namespace std;
-int main() {
+
    /* cout << "Namaste duniya" <<endl; 
    int a = 2.0/5;
    cout << a <<endl;
@@ -71,13 +69,13 @@ int main() {
   /*this is the program t check wheather the num is  +ve -ve or zero and 
   i write it by myself*/
 
-  /*int a;
+ /*int a;
 
   cout<<"Enter the value of a" <<endl;
   cin>>a;
 
  
-  if(a>0) {
+ if(a>0) {
     cout<<"A is positive num" <<endl;
 
   }
@@ -90,5 +88,98 @@ int main() {
     cout<<"A is zero" <<endl;
   } */
 
+    /*here is another problem*/
+
+
+    
+    /*char a;
+    cout<<"Enter the value of a" <<endl;
+    cin>>a;
+
+    if(a>=a && a<=z){
+      cout<<"a is loercase " <<endl;
+    }
+     
+    else if (a>=A && a<=Z){
+      cout<<"A is uppercase" <<endl;
+    }
+    
+    if(a>=0 && a<=9) {
+      cout<<"a is num" <<endl;
+    }*/
+
+   /*int n;
+   cin>>n;
+
+   int i = 1;
+   while(i<=n) {
+    cout<<i;
+    i = i++;
+   } */
+   // this is the question where we find out the sum of n numbers //
+
+  /* int n;
+   cin>n;
+
+   int i = 1;
+   int sum = 0;
+
+   while (i <= n) {
+
+    sum = sum + i;
+    i = 1 + i;
+
+   }
+
+    cout<<:"value of sum is" <<sum <<endl; */
+
+
+
+   #include <iostream> 
+  using namespace std;
+   /*int main() {
+    int n;
+    cin>>n;
+
+    int i = 1;
+     int sum =  0;
+
+    while(i <= n) {
+       sum = sum + i;
+       i = 1 + i;
+    }
+
+    cout<<"value of sum"<<sum<<endl;*/
+     
+    int main(){
+    int n;
+    cin >> n;
+
+    int i = 2;
+    while(i<n) {
+      if (n%i == 0){
+        cout<<"not prime number"<<endl;
+      }
+       i = i + 1;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     return 0;
+
+
 }
