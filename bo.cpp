@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+/*#include <iostream>
+using namespace std;*/
 
 /*int main() {
       int a = 4;
@@ -7,7 +7,7 @@ using namespace std;
 
       cout<< " a&b " << (a & b) <<endl;
       cout<< " a|b " << (a | b) <<endl;
-      cout<< " ~a " << (~a) <<endl;
+      cout<< " ~a " << (~a)     <<endl;
       cout<< " a^b " << (a ^ b ) <<endl;
 
       cout<< (17>>1) <<endl; 
@@ -19,7 +19,7 @@ using namespace std;
 
       cout<< (++i) <<endl;
       cout<< (i++) <<endl;
-      cout<< (--i)  <<endl;
+      cout<< (--i) <<endl;
       cout<< (i--) <<endl;
 
    /* int x = 1;
@@ -42,7 +42,7 @@ using namespace std;
 }*/
 
 
-int main() {
+//int main() {
   /*8int n;
   cout<<"enter the value of n" <<endl;
   cin>>n;
@@ -99,21 +99,93 @@ int main() {
        cout<< "reply to krdeee" << endl;
    }*/
 
-   int a = 3;
+   /*int a = 3;
 
    cout<< a <<endl;
 
    if(true) {
     int a = 5;
-    cout << a <<endl;
+    cout << a <<endl;*/
+
+   //}
+
+  //dec to bin conversition//
+
+//}
+
+  //dec to bin conversition//
+/*#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main () {
+  int n;
+  cin >> n;
+
+  int ans = 0;
+  int i = 0;
+  while(n != 0){
+    int bit = n & 1;
+
+    ans = (bit * pow(10, i )) + ans;
+
+    n = n >> 1;
+    i++;
+  }
+
+   cout<<"Answere is "<< ans << endl;
+
+}*/
+
+/*#include<iostream>
+using namespace std;
+
+int main(){
+   int n;
+   cin >> n;
+
+   string ans = "";
+
+   while(n != 0){
+    int bit = n & 1;
+    ans = char(bit + '0') + ans;
+    n = n >> 1;
 
    }
 
+   cout<< "Binary is " << ans << endl;
+}*/
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+
+  int n;
+  cin >> n;
+  int i = 0, ans = 0;
+
+  while(n != 0){
+    int digit = n % 10;
+
+    if (digit == 1){
+      ans =  ans + pow(2, i);
+    }
+     
+   n = n/10;
+   i++;
 
 
+  }
 
-
-
-
+  cout<< ans << endl;
 
 }
+
+
+
+
+
+
+
