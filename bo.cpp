@@ -156,7 +156,7 @@ int main(){
    cout<< "Binary is " << ans << endl;
 }*/
 
-#include<iostream>
+/*#include<iostream>
 #include<math.h>
 using namespace std;
 
@@ -181,8 +181,56 @@ int main() {
 
   cout<< ans << endl;
 
-}
+}*/
 
+#include<iostream>
+using namespace std;
+
+int main(){
+  /*char grade = 't';
+
+  int value = grade;
+  cout<< value <<endl;*/
+
+  /*double a = 3.14;
+
+  int value = (int)a;
+
+  cout<< value <<endl;*/
+
+  /*int age;
+  cin >> age;
+
+  cout<< "your age is " << age <<endl;
+  return 0;*/
+
+   /*int a = 3;
+   int b = 4;
+
+  cout<<"a + b = " << (a+b) <<endl;
+  cout<<"a - b = " << (a-b) <<endl;
+  cout<<"a * b = " << (a*b) <<endl;
+  cout<<"a / b = " << (a/b) <<endl;*/
+
+  /*cout<<(5/(double)4) <<endl;*/
+
+  /*cout<< ( ( 3 > 4) || (5 > 2) ) <<endl;*/
+
+   /*int a = 3;
+   int b = 4;
+   
+   int sum = a + b;
+
+    cout<< "sum is " << sum <<endl;*/
+  
+    int a , b;
+    cout<< "enter two numbers" <<endl;
+    cin >> a >> b;
+
+    int sum = a + b;
+    cout<< "sum is " << sum <<endl;
+
+}
 
 
 
