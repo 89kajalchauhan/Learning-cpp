@@ -62,11 +62,132 @@ int main() {
    
 
 
-    int n = 45;
+    /*int n = 45;
 
     cout<<(n >= 0 ? "positive" : "negative")<<endl;
     
-    return 0;
+    return 0;*/
+
+
+    /*int n;
+    cin>>n;
+
+    int i = 1;
+
+    while (i <= n) {
+        cout<<i<<" ";
+        //i++;
+    }*/
+    
+    /*int n;
+    cin>>n;
+
+    for(int i = 1; i <=n; i++) {
+        cout<<i<<" ";
+    }*/
+
+    /*int n;
+    cin>>n;
+
+    int sum = 0;
+
+    for(int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    cout<<sum<<endl;*/
+
+    /*int n;
+    cin>>n;
+     int i = 1;
+    int sum = 0;
+
+    while( i <= n) {
+
+        i++;
+        sum += i;
+        cout<<"sum is"<<sum<<endl;
+    }*/
+
+    /*int n = 5;
+    int i = 1;
+
+    int sum = 0;
+
+    while (i <= n) {
+        sum += i;
+        i++;
+
+    }*/
+
+    /*int n = 5;
+
+    for( int i = 1; i <= n; i++) {
+        if( i%2 ==  0) {
+            cout<<i<<" is even"<<endl;
+        }
+        else {
+            cout<<i<<" is odd" <<endl;
+        }
+        }*/
+
+        /*int n = 10;
+        int sum = 0;
+        for(int i = 1; i <= n; i++) {
+            if(i%2 != 0) {
+                sum += i;
+                
+            }
+        }
+        cout<<"sum of odd numbers is "<<sum<<endl;*/
+
+
+
+        /*int n = 10;
+        
+        for(int i = 1; i <=n; i++) {
+            if(i%2 == 0) {
+                cout<<i<<" is prime"<<endl;
+                else {
+                    cout<<i<<" is not prime"<<endl;
+                }
+            }
+        }
+    return 0;*/
+
+   /*int n = 7;
+   bool isPrime = true;
+
+   for(int i = 2; i <= n/2; i++) {
+    if (n % i == 0) {
+        isPrime = false;
+        break;
+    }
+   }*/
+
+   int n;
+    cin>>n;
+   bool isPrime = true;
+
+   for(int i = 2; i <= n/2; i++) {
+    if (n % i ==0) {
+        isPrime = false;
+        break;
+    }
+   }
+
+     if(isPrime){
+        cout<<n<<" is prime"<<endl;
+     }
+     else {
+        cout<<n<<" is not prime"<<endl;
+     }
+     }
+
+
+
+
+
+
    
 
 
@@ -76,7 +197,7 @@ int main() {
 
 
 
-}
+
     
 
      
