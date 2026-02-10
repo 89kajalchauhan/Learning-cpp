@@ -164,7 +164,7 @@ int main() {
     }
    }*/
 
-   int n;
+   /*int n;
     cin>>n;
    bool isPrime = true;
 
@@ -180,8 +180,29 @@ int main() {
      }
      else {
         cout<<n<<" is not prime"<<endl;
+     }*/
+
+
+
+     /*for(int i = 1; i <= 5; i++) {
+       
+        cout<<"1 2 3 4 5"<<endl;
+
+     }*/
+
+
+     int n;
+     cin>>n;
+
+     for(int i = 1; i <= n; i++){
+        for(int j = 1; j<= n;  j++) {
+            cout<<" * ";
+
+        }
+        cout<<endl;
      }
-     }
+
+}
 
 
 
