@@ -343,20 +343,73 @@ int main() {
                             cout<<endl;
                         }*/
 
-        int n = 5;
+        /*int n = 5;
         int num = 1;
           for(int i = 0; i < n; i++) {
              //space
                 for(int j = 0; j < i; j++) {
-                    cout<<"  ";
+                    cout<<"  ";0
                 }
                 //number
                 for(int j = 0; j < n - i; j++) {
                     cout<< ( i + 1) <<" ";
                 }
                 cout<<endl;
-          }
-                    }
+          }*/
+
+
+
+    //pyramid pattern
+
+    /*int n = 5;
+    for(int i = 0; i < n; i++) {
+        //space : n - i - 1
+        for(int j = 0; j < n - i - 1; j++) {
+            cout<<"  ";
+        }
+        //number : i + 1
+        for(int j = 1; j < i + 1; j++) {
+            cout<< j <<" ";
+        }
+
+        //number : 
+        for(int j = 1; j>= 1; j--){
+            cout<< j <<" ";
+        }
+        cout<<endl;
+    }*/
+        
+         /*         *
+                  *    *
+                *         *
+              *              *
+                *          *
+                   *    *
+                     *
+         
+        may be we can do this pattern in next class
+         */
+         int n = 5;
+         for(int i = 0; i < n; i++) {
+            //space : n - i - 1
+            for(int j = 0; j < n - i - 1; j++) {
+                cout<<"  ";
+            }
+            //star : i + 1
+            for(int j = 0; j < i + 1; j++) {
+                cout<<"* ";
+            }
+            //space : n - i - 1
+            for(int j = 0; j < n - i - 1; j++) {
+                cout<<"  ";
+            }
+            //star : i + 1
+            for(int j = 0; j < i + 1; j++) {
+                cout<<"* ";
+            }
+            cout<<endl;
+         }
+    }
 
 
 
