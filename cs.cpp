@@ -191,7 +191,7 @@ int main() {
      }*/
 
 
-     int n;
+     /*int n;
      cin>>n;
 
      for(int i = 1; i <= n; i++){
@@ -200,9 +200,170 @@ int main() {
 
         }
         cout<<endl;
-     }
+     }*/
 
-}
+
+     
+
+     /*for(int i=0; i<n; i++) {
+        char ch = 'A';
+        for(int j=0; j<n; j++){
+            cout << ch;
+            ch = ch + 1;
+        }
+        cout << endl;
+     }
+      return 0;*/
+       
+      /*int n = 5;
+      int num = 1;
+
+      for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            cout<<num<<" ";
+            num = num + 1;
+        }
+        cout<<endl;
+      }*/
+
+      /*int n = 5;
+
+      char ch = 'A';
+       for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            cout<<ch<<" ";
+            ch = ch + 1;
+        }
+        cout<<endl;
+       }*/
+
+
+        /*int n = 4;
+         for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+               
+            }
+         }*/
+
+         /*int n = 1;
+          for (int i = 0; i < n; i++) {
+            for(int j = 0; j < i + 1; j++) {
+                cout<<" * ";
+            }
+            cout<<endl;
+          }*/
+
+
+          /*int n = 5;
+            for(int i = 0; i < n; i++) {
+            for(int j = 0; j < i+1; j++) {
+                cout<< (i + 1)<<" ";
+            }
+            cout<<endl;
+          }*/
+
+
+          /*int n = 5;
+          for(int i = 0; i < n; i++) {
+            for(int j = 0; j < i + 1; j++) {
+                cout<< (i + 1) << " ";
+            }
+            cout<<endl;
+          }*/
+
+          
+             /*int n = 5;
+             char ch = 'A';
+             for(int i = 0; i < n; i++) {
+                for(int j = 0; j < i + 1; j++) {
+                    cout<< ch << " ";
+                    ch = ch + 1;
+                }
+                cout<<endl;
+             }*/
+
+
+             //print the pattern 
+             /*A
+               B B 
+               C C C
+               D D D D
+               E E E E E*/
+
+               /*int n = 5;
+               char ch = 'A';
+
+               for(int i = 0; i < n; i++) {
+                 for(int j = 0; j < i + 1; j++) {
+                    cout<< ch << " ";
+                 }
+                 ch = ch + 1;
+                 cout<<endl;
+               }
+              return 0;*/
+              
+              /*int n = 4;
+              for(int i = 0; i < n; i++) {
+                 for(int j = 0; j < i + 1; j++) {
+                    cout<< (j + 1) << " ";
+                 }
+                    cout<<endl;
+                 }*/
+
+                    /*1
+                      2 2
+                      3 3 3
+                      4 4 4 4
+                      5 5 5 5 5*/
+                  
+                    /*int n = 5;
+                    for(int i = 0; i < n; i++) {
+                        for(int j = i + 1; j > 0; j--) {
+                            cout<< j  << " ";
+                        }
+                        cout<<endl;
+                    }*/
+
+                    /*int n = 4;
+                    for(int i = 0; i < n; i++) {
+                        for(int j = 0; j < i + 1; j++) {
+                            cout<< () << " ";
+                         }i - j + 1
+                         cout<<endl;
+                        }*/
+                      
+
+                        /*int n = 4;
+                        int num = 1;
+                        for(int i = 0; i < n; i++) {
+                            for(int j = i + 1; j > 0; j--) {
+                                cout<< num << " ";
+                                num = num + 1;
+                            }
+                            cout<<endl;
+                        }*/
+
+        int n = 5;
+        int num = 1;
+          for(int i = 0; i < n; i++) {
+             //space
+                for(int j = 0; j < i; j++) {
+                    cout<<"  ";
+                }
+                //number
+                for(int j = 0; j < n - i; j++) {
+                    cout<< ( i + 1) <<" ";
+                }
+                cout<<endl;
+          }
+                    }
+
+
+
+              
+
+              
+
 
 
 
