@@ -34,4 +34,43 @@ int main() {
 
        cout<< sizeof(signed int) << endl; // size of char data type
     return 0;
+
+    // give me 5 more question for the same 
+      cout << ( 5 + 3 * 2) << endl; // operator precedence
+
+         cout << ( 5 * 3 + 2) << endl; // operator precedence
+    
+          cout << ( 5 * (3 + 2)) << endl; // operator precedence
+    
+            cout << ( 5 / 2) << endl; // operator precedence
+    
+             cout << ( 5 % 2) << endl; // operator precedence
+
+             cout << ( 5 / 2.0) << endl; // operator precedence
+
+              cout << ( 5 % 2.0) << endl; // operator precedence
+
+               cout << ( 5 + 3 * 2 - 4) << endl; // operator precedence
+
+                cout << ( 5 * 3 / 2) << endl; // operator precedence
+
+                 cout << ( 5 * 3 % 2) << endl; // operator precedence
+
+                  cout << ( 5 * 3 / 2.0) << endl; // operator precedence
+
+                   cout << ( 5 * 3 % 2.0) << endl; // operator precedence
+
+                     cout << ( 5 + 3 * 2 / 4) << endl; // operator precedence
+
+                      cout << ( 5 * 3 + 2 / 4) << endl; // operator precedence
+
+                       cout << ( 5 * (3 + 2) / 4) << endl; // operator precedence
+
+                        cout << ( 5 * (3 + 2) % 4) << endl; // operator precedence
+
+                         cout << ( 5 * (3 + 2) / 4.0) << endl; // operator precedence
+
+                          cout << ( 5 * (3 + 2) % 4.0) << endl; // operator precedence
+                           
+                          
 }
