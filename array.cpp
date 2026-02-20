@@ -1,7 +1,7 @@
 //Going to study arrays in C++ and how to use them
 #include <iostream>
 using namespace std;
-int main() {
+/*int main() {
 
 
     // declearing an array of integers with size 5
@@ -40,7 +40,7 @@ int main() {
     //find the smallest and the largest of the araay//
     
 
-    int nums[5] = {10, 20, 5, 30, 15};
+    /*int nums[5] = {10, 20, 5, 30, 15};
     int smallest = nums[0];
     int largest = nums[0];
     for(int i = 1; i < 5; i++) {
@@ -50,6 +50,53 @@ int main() {
         if(nums[i] > largest) {
             largest = nums[i];
         }
-    }
+    }*/
 
-}
+
+    /*int nums[] = {5, 15, 22, 1, -4};
+    int size  = 6;
+
+    int smallest = INT_MAX;
+
+    for(int i = 0; i < size; i++) {
+        if(nums [i] < smallest) {
+            smallest = nums[i];
+        }
+    }
+    cout << "smallest = " << smallest << endl;
+    return 0;*/
+
+
+
+    /*void changeArr(int arr[], int size) {
+        cout<< "in function\n";
+        for(int i = 0; i < size; i++) {
+            arr[i] = 2 * arr[i];
+        }
+    }
+  int main () {
+    int arr[] = {1, 2. 3};
+
+    changeArr(arr, 3);
+
+    cout << "in main\n";
+     for(int i = 0; i < size; i++) {
+            arr[i] = 2 * arr[i];
+        }*/
+
+     int linearSearch(int arr[], int sz, int target) {
+        for(int i = 0; i < sz; i++) {
+            if(arr[i] == target) {
+                return 1;
+            }
+        }
+     }
+
+     int main () {
+        int arr[] = {4, 2, 7, 8, 1, 2, 3};
+        int sz = 7;
+        int target = 50;
+
+        cout<< linearSearch(arr, sz, target) << endl;
+        return 0;
+     }
