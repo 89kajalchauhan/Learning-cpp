@@ -84,7 +84,7 @@ using namespace std;
             arr[i] = 2 * arr[i];
         }*/
 
-     int linearSearch(int arr[], int sz, int target) {
+     /*int linearSearch(int arr[], int sz, int target) {
         for(int i = 0; i < sz; i++) {
             if(arr[i] == target) {
                 return 1;
@@ -98,5 +98,29 @@ using namespace std;
         int target = 50;
 
         cout<< linearSearch(arr, sz, target) << endl;
-        return 0;
-     }
+        return 0;*/
+
+        void reverseArrey(int arr[], int sz) {
+            int start = 0, end = sz - 1;
+
+            while(start < end) {
+                swap(arr[start], arr[end]);
+                start++;
+                end--;
+            }
+
+        }
+        int main() {
+
+            int arr[] = {4, 3, 7, 9, 5, 8, 1};
+            int  sz = 7;
+
+            reverseArrey(arr, sz);
+
+            for(int i = 0; i < sz; i++) {
+                cout << arr[i] << " ";
+            }
+             cout<< endl;
+             return 0;
+        }
+     
