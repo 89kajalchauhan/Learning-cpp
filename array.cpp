@@ -55,7 +55,7 @@ using namespace std;
 
     /*int nums[] = {5, 15, 22, 1, -4};
     int size  = 6;
-
+ 
     int smallest = INT_MAX;
 
     for(int i = 0; i < size; i++) {
@@ -100,7 +100,7 @@ using namespace std;
         cout<< linearSearch(arr, sz, target) << endl;
         return 0;*/
 
-        void reverseArrey(int arr[], int sz) {
+        /*void reverseArrey(int arr[], int sz) {
             int start = 0, end = sz - 1;
 
             while(start < end) {
@@ -111,16 +111,84 @@ using namespace std;
 
         }
         int main() {
-
+        
             int arr[] = {4, 3, 7, 9, 5, 8, 1};
             int  sz = 7;
 
-            reverseArrey(arr, sz);
+            (arr, sz);
 
             for(int i = 0; i < sz; i++) {
-                cout << arr[i] << " ";
+                cout << arreverseArreyr[i] << " ";
             }
              cout<< endl;
              return 0;
-        }
+        }*/
      
+#include <iostream>
+using namespace std;
+
+// Function to reverse array
+void reverseArray(int arr[], int size) {
+    int start = 0;
+    int end = size - 1;
+
+    while (start < end) {
+        swap(arr[start], arr[end]);
+        start++;
+        end--;
+    }
+}
+
+// Function to print array
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+// Bubble Sort Function
+void bubbleSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+            }
+        }
+    }
+}
+
+// Linear Search Function
+int linearSearch(int arr[], int size, int key) {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == key)
+            return i;
+    }
+    return -1;
+}
+
+int main() {
+    int arr[] = {5, 2, 9, 1, 7};
+    int size = 5;
+
+    cout << "Original Array: ";
+    printArray(arr, size);
+
+    reverseArray(arr, size);
+    cout << "Reversed Array: ";
+    printArray(arr, size);
+
+    bubbleSort(arr, size);
+    cout << "Sorted Array: ";
+    printArray(arr, size);
+
+    int key = 7;
+    int result = linearSearch(arr, size, key);
+
+    if (result != -1)
+        cout << "Element found at index: " << result << endl;
+    else
+        cout << "Element not found." << endl;
+
+    return 0;
+}
